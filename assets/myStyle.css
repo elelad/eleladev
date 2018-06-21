@@ -1,0 +1,190 @@
+.navbar-brand{
+    font-size: 3em;
+    padding-top: 0.6em;
+
+}
+.navbar-brand a{
+    color: #3F51B5;
+}
+
+
+/*--------------carousel----------------------*/
+.smartphone{
+    text-align: center;
+}
+
+.smartphone{
+    max-height: 590px;
+    max-width: 256px;
+    display: block;
+    padding: 35px 0.6em 55px 0.6em;
+    background-image: url("../images/projects/Smartphone.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    position: absolute;
+    right: 0;
+    margin-bottom: 10px;
+}
+.smartphone-inner{
+    max-height: 511px;
+    border-radius: 5px 5px 0 0;
+    max-width: 256px;
+    display: block;
+    width: auto;
+    height: auto;
+}
+.smartphone-control.left, .smartphone-control.right{
+    background: none;
+}
+
+.glyphicon-chevron-left, .glyphicon-chevron-right{
+    color: rgba(0,0,0,0.1);
+}
+
+.smartphone-caption-span{
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 8px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+
+    color: black;
+}
+
+.carousel a{
+    background: none;
+}
+
+/*------------modal-----------------------*/
+.modal-dialog{
+    width: 90%;
+    position: absolute;
+    left: 5%;
+    top: 3%;
+    margin: 0;
+    background-color: transparent;
+    font-size: 1.1em;
+    line-height: 1.3em;
+}
+
+.modal-body{
+    position: relative;
+}
+.modal-body h4{
+    font-weight: 500;
+    color: #283593;
+    border-bottom: solid 1px #C5CAE9;
+    /*border-color: -moz-linear-gradient(left, #3949AB, transparent)*/
+    max-width: 350px;
+    min-width: 60%;
+}
+
+.close{
+    color: white;
+}
+
+.modal-header{
+    position: relative;
+    background-color: #3949AB;
+    color: white;
+}
+.modal-header .glyphicon-remove-sign{
+    color: white;
+}
+
+
+.titleButton{
+    position: absolute;
+    right: 3em;
+    top: 1em;
+    display: inline-block;
+    border-radius: 50px;
+    width: auto;
+    padding: 12px 15px 12px 15px;
+    text-align: center;
+}
+
+.modal-footer{
+    text-align: center;
+    background-color: #283593;
+}
+
+.modal-footer a{
+    border: solid thin white;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    font-weight: bold;
+}
+.modal-footer a:hover{
+    border: solid thin white;
+    padding: 5px 25px 5px 25px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.using-logos{
+    height: 45px;
+}
+
+.features-ul .list-group-item{
+    border: none;
+}
+.features-ul .glyphicon{
+    color: #5C6BC0;
+    margin-right: 10px;
+}
+
+.projectLogo{
+  width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.roundLi{
+    /*border: solid thin #C5CAE9;*/
+    background-color: #E8EAF6;
+    line-height: 1.8em;
+    padding: 20px;
+    border-radius: 30em;
+    text-align: center;
+    /*display: inline-block;*/
+    width: 7em;
+    height: 7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+
+}
+
+.roundLi img{
+    width: 4em;
+    height: 4em;
+}
+
+.qrContainer{
+    position: relative;
+    text-align: center;
+}
+
+#mQr {
+    width: 80px;
+    height: 80px;
+}
+
+.mLink{
+    margin-left: 5px;
+    color: white;
+    font-weight: 100;
+    font-size: 0.7em;
+}
+.mLink a:active {
+    color: white;
+}

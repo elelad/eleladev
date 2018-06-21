@@ -1,0 +1,543 @@
+{
+  "projects": [
+    {
+      "name": "KidoTube",
+      "cover": "images/projects/kidotube/cover.jpg",
+      "logo": "images/projects/kidotube/kidotubeSmall.png",
+      "liveDemo": "https://play.google.com/store/apps/details?id=com.elelad.kidstube",
+      "QR": "images/projects/kidotube/kidoTubeQRcode.jpeg",
+      "shortDescription": "Android Youtube App for children",
+      "description": "KidoTube is an Android App that designed to allow children to search Youtube for movies and music using icons and without typing.",
+      "gallery" :[
+        {
+          "caption": "Single video",
+          "src": "images/projects/kidotube/gallery/SingleVideo.png"
+        },
+        {
+          "caption": "Animals",
+          "src": "images/projects/kidotube/gallery/Animals.png"
+        },
+        {
+          "caption": "Favorites",
+          "src": "images/projects/kidotube/gallery/Favorites.png"
+        },
+        {
+          "caption": "Menu",
+          "src": "images/projects/kidotube/gallery/Menu.png"
+        },
+        {
+          "caption": "Searched items",
+          "src": "images/projects/kidotube/gallery/SearchedItems.png"
+        },
+        {
+          "caption": "Setting",
+          "src": "images/projects/kidotube/gallery/Setting.png"
+        },
+        {
+          "caption": "Set timer",
+          "src": "images/projects/kidotube/gallery/SetTimer.png"
+        },
+        {
+          "caption": "Shows",
+          "src": "images/projects/kidotube/gallery/Shows.png"
+        },
+        {
+          "caption": "Timer On",
+          "src": "images/projects/kidotube/gallery/TimerOn.png"
+        }
+      ],
+      "features": [
+        {
+          "feature": "Native Android app",
+          "icon": "phone"
+        },
+        {
+          "feature": "Side bar menu",
+          "icon": "menu-hamburger"
+        },
+        {
+          "feature": "Setting",
+          "icon": "cog"
+        },
+        {
+          "feature": "Children Timer",
+          "icon": "bell"
+        },
+        {
+          "feature": "YouTube safe search",
+          "icon": "tower"
+        },
+        {
+          "feature": "Themes",
+          "icon": "tint"
+        },
+        {
+          "feature": "3 different languages",
+          "icon": "font"
+        },
+        {
+          "feature": "Database",
+          "icon": "floppy-disk"
+        },
+        {
+          "feature": "Favorite",
+          "icon": "star"
+        }
+      ],
+      "using": [
+        {
+          "use": "Java",
+          "src": "images/projects/using/java.png"
+        },
+        {
+          "use": "Android Studio",
+          "src": "images/projects/using/android-studio.png"
+        },
+        {
+          "use": "YouTube API",
+          "src": "images/projects/using/YouTube.png"
+        },
+        {
+          "use": "Google Play",
+          "src": "images/projects/using/google-play.png"
+        }
+      ]
+    },
+    {
+      "name": "bConverter",
+      "cover": "images/projects/bakingconverter/handsCoverLight.jpg",
+      "logo": "images/projects/bakingconverter/bConverterLogoBackground.png",
+      "liveDemo": "https://storage.googleapis.com/bconverter/index.html",
+      "QR": "images/projects/bakingconverter/bConverterQRcode.jpeg",
+      "shortDescription": "Converter for Baking",
+      "description": "with bConverter you can convert weight or volume to cup spoon or teaspoon",
+      "gallery":[
+        {
+          "caption": "Home",
+          "src": "images/projects/bakingconverter/gallery/Home.jpg"
+        },
+        {
+          "caption": "Weight",
+          "src": "images/projects/bakingconverter/gallery/Weight.jpg"
+        },
+        {
+          "caption": "Volume",
+          "src": "images/projects/bakingconverter/gallery/volume.jpg"
+        },
+        {
+          "caption": "Temperature",
+          "src": "images/projects/bakingconverter/gallery/temperature.jpg"
+        },
+        {
+          "caption": "Setting",
+          "src": "images/projects/bakingconverter/gallery/setting.jpg"
+        }
+      ],
+      "features": [
+        {
+          "feature": "Hybrid app",
+          "icon": "phone"
+        },
+        {
+          "feature": "Responsive app",
+          "icon": "resize-full"
+        },
+        {
+          "feature": "Localization",
+          "icon": "globe"
+        },
+        {
+          "feature": "Detect your Location",
+          "icon": "map-marker"
+        },
+        {
+          "feature": "Support few Scales",
+          "icon": "scale"
+        }
+      ],
+      "using": [
+        {
+          "use": "TypeScript",
+          "src": "images/projects/using/ts.png"
+        },
+        {
+          "use": "jQuery",
+          "src": "images/projects/using/jquery.png"
+        },
+        {
+          "use": "jQuery Mobile",
+          "src": "images/projects/using/jquerymobile.png"
+        },
+        {
+          "use": "Java",
+          "src": "images/projects/using/java.png"
+        },
+        {
+          "use": "Android Studio",
+          "src": "images/projects/using/android-studio.png"
+        },
+        {
+          "use": "HTML5",
+          "src": "images/projects/using/HTML5.png"
+        },
+        {
+          "use": "CSS3",
+          "src": "images/projects/using/CSS3.svg"
+        }
+      ]
+    },
+    {
+      "name": "Relative Weather",
+      "cover": "images/projects/relWeather/cover.jpg",
+      "logo": "images/projects/relWeather/relweatherLogo.png",
+      "liveDemo": "https://storage.googleapis.com/relweather/relWeather.html",
+      "QR": "images/projects/relWeather/relWeatherQRcode.jpeg",
+      "shortDescription": "Responsive Weather app with ajax",
+      "description": "Sometimes the temperature doesn't tell us anything. but how the weather felt yesterday - we always know.Relative Weather designed to show proportional weather.",
+      "gallery" :[
+        {
+          "caption": "Home",
+          "src": "images/projects/relWeather/gallery/home.jpg"
+        },
+        {
+          "caption": "Menu",
+          "src": "images/projects/relWeather/gallery/menu.jpg"
+        },
+        {
+          "caption": "Search",
+          "src": "images/projects/relWeather/gallery/search.jpg"
+        },
+        {
+          "caption": "Last Search",
+          "src": "images/projects/relWeather/gallery/lasrSearch.jpg"
+        },
+        {
+          "caption": "Favorites",
+          "src": "images/projects/relWeather/gallery/favorites.jpg"
+        }
+      ],
+      "features": [
+        {
+          "feature": "Hybrid app",
+          "icon": "phone"
+        },
+        {
+          "feature": "Responsive app",
+          "icon": "resize-full"
+        },
+        {
+          "feature": "Get from Location",
+          "icon": "map-marker"
+        },
+        {
+          "feature": "Auto Complete",
+          "icon": "list"
+        },
+        {
+          "feature": "Season Save",
+          "icon": "hdd"
+        },
+        {
+          "feature": "Favorite",
+          "icon": "star"
+        }
+      ],
+      "using": [
+        {
+          "use": "jQuery",
+          "src": "images/projects/using/jquery.png"
+        },
+        {
+          "use": "BootStrap",
+          "src": "images/projects/using/Bootstrap.jpg"
+        },
+        {
+          "use": "HTML5",
+          "src": "images/projects/using/HTML5.png"
+        },
+        {
+          "use": "CSS3",
+          "src": "images/projects/using/CSS3.svg"
+        },
+        {
+          "use": "AJAX",
+          "src": "images/projects/using/ajax.png"
+        }
+      ]
+    },
+    {
+      "name": "JS Quiz",
+      "cover": "images/projects/jsQuiz/cover.jpg",
+      "logo": "images/projects/jsQuiz/question.png",
+      "liveDemo": "https://storage.googleapis.com/javascriptquiz/jsQuiz.html",
+      "QR": "images/projects/jsQuiz/jsQuizQRcode.jpeg",
+      "shortDescription": "Take a Quiz in JavaScript",
+      "description": "Random Questions in JavaScript",
+      "gallery" :[
+        {
+          "caption": "Home",
+          "src": "images/projects/jsQuiz/gallery/home.jpg"
+        },
+        {
+          "caption": "Question",
+          "src": "images/projects/jsQuiz/gallery/question.jpg"
+        },
+        {
+          "caption": "Validation",
+          "src": "images/projects/jsQuiz/gallery/validation.jpg"
+        },
+        {
+          "caption": "Score",
+          "src": "images/projects/jsQuiz/gallery/score.jpg"
+        }
+      ],
+      "features": [
+        {
+          "feature": "Responsive app",
+          "icon": "resize-full"
+        },
+        {
+          "feature": "Timer",
+          "icon": "hourglass"
+        }
+      ],
+      "using": [
+        {
+          "use": "jQuery",
+          "src": "images/projects/using/jquery.png"
+        },
+        {
+          "use": "jQuery Mobile",
+          "src": "images/projects/using/jquerymobile.png"
+        },
+        {
+          "use": "HTML5",
+          "src": "images/projects/using/HTML5.png"
+        },
+        {
+          "use": "CSS3",
+          "src": "images/projects/using/CSS3.svg"
+        }
+      ]
+    },
+    {
+      "name": "Store Map",
+      "cover": "images/projects/storeMap/cover2.jpg",
+      "logo": "images/projects/storeMap/pinIcon.png",
+      "liveDemo": "https://storage.googleapis.com/storemap/storesMap.html",
+      "QR": "images/projects/storeMap/storeMapQRcode.jpeg",
+      "shortDescription": "Stores on Google Maps",
+      "description": "Responsive app that shows stores on Google Maps",
+      "gallery" :[
+        {
+          "caption": "Home",
+          "src": "images/projects/storeMap/gallery/home.jpg"
+        },
+        {
+          "caption": "Details",
+          "src": "images/projects/storeMap/gallery/details.jpg"
+        },
+        {
+          "caption": "List",
+          "src": "images/projects/storeMap/gallery/list.jpg"
+        }
+      ],
+      "features": [
+        {
+          "feature": "Responsive app",
+          "icon": "resize-full"
+        },
+        {
+          "feature": "Auto complete",
+          "icon": "list"
+        },
+        {
+          "feature": "Click to Dial",
+          "icon": "earphone"
+        },
+        {
+          "feature": "Click to Navigate",
+          "icon": "road"
+        },
+        {
+          "feature": "Click to Email",
+          "icon": "envelope"
+        },
+        {
+          "feature": "RTL support",
+          "icon": "align-right"
+        }
+
+      ],
+      "using": [
+        {
+          "use": "jQuery",
+          "src": "images/projects/using/jquery.png"
+        },
+        {
+          "use": "jQuery Mobile",
+          "src": "images/projects/using/jquerymobile.png"
+        },
+        {
+          "use": "HTML5",
+          "src": "images/projects/using/HTML5.png"
+        },
+        {
+          "use": "CSS3",
+          "src": "images/projects/using/CSS3.svg"
+        },
+        {
+          "use": "Google Maps API",
+          "src": "images/projects/using/google-maps.png"
+        }
+
+      ]
+    },
+    {
+      "name": "TodoOrNot",
+      "cover": "images/projects/todoOrNot/bridge.jpg",
+      "logo": "images/projects/todoOrNot/timer.png",
+      "liveDemo": "https://elelad-todoornot.appspot.com/",
+      "QR": "images/projects/todoOrNot/qrcode.png",
+      "shortDescription": "Angular 2 Todo List",
+      "description": "Responsive app with Angular 2 and WebPack",
+      "gallery" :[
+        {
+          "caption": "Home",
+          "src": "images/projects/todoOrNot/gallery/home.jpg"
+        },
+        {
+          "caption": "Details",
+          "src": "images/projects/todoOrNot/gallery/details.jpg"
+        },
+        {
+          "caption": "Menu",
+          "src": "images/projects/todoOrNot/gallery/menu.jpg"
+        },
+        {
+          "caption": "Edit",
+          "src": "images/projects/todoOrNot/gallery/edit.jpg"
+        },
+        {
+          "caption": "History",
+          "src": "images/projects/todoOrNot/gallery/history.jpg"
+        }
+      ],
+      "features": [
+        {
+          "feature": "Responsive app",
+          "icon": "resize-full"
+        },
+        {
+          "feature": "Modal",
+          "icon": "new-window"
+        },
+        {
+          "feature": "Routing",
+          "icon": "link"
+        },
+        {
+          "feature": "Validation",
+          "icon": "ok"
+        },
+        {
+          "feature": "History",
+          "icon": "time"
+        }
+      ],
+      "using": [
+        {
+          "use": "TypeScript",
+          "src": "images/projects/using/ts.png"
+        },
+        {
+          "use": "Angular2",
+          "src": "images/projects/using/angular2logo.png"
+        },
+        {
+          "use": "BootStrap",
+          "src": "images/projects/using/Bootstrap.jpg"
+        },
+        {
+          "use": "WebPack",
+          "src": "images/projects/using/webpack.png"
+        },
+        {
+          "use": "jQuery",
+          "src": "images/projects/using/jquery.png"
+        },
+        {
+          "use": "HTML5",
+          "src": "images/projects/using/HTML5.png"
+        },
+        {
+          "use": "CSS3",
+          "src": "images/projects/using/CSS3.svg"
+        }
+
+      ]
+    }
+  ],
+  "using": [
+    {
+      "use": "TypeScript",
+      "src": "images/projects/using/ts.png"
+    },
+    {
+      "use": "Angular2",
+      "src": "images/projects/using/angular2logo.png"
+    },
+    {
+      "use": "jQuery",
+      "src": "images/projects/using/jquery.png"
+    },
+    {
+      "use": "jQuery Mobile",
+      "src": "images/projects/using/jquerymobile.png"
+    },
+    {
+      "use": "BootStrap",
+      "src": "images/projects/using/Bootstrap.jpg"
+    },
+    {
+      "use": "WebPack",
+      "src": "images/projects/using/webpack.png"
+    },
+    {
+      "use": "Java",
+      "src": "images/projects/using/java.png"
+    },
+    {
+      "use": "Android Studio",
+      "src": "images/projects/using/android-studio.png"
+    },
+    {
+      "use": "HTML5",
+      "src": "images/projects/using/HTML5.png"
+    },
+    {
+      "use": "CSS3",
+      "src": "images/projects/using/CSS3.svg"
+    },
+    {
+      "use": "AJAX",
+      "src": "images/projects/using/ajax.png"
+    },
+    {
+      "use": "EcmaScript 2015",
+      "src": "images/projects/using/es6.png"
+    },
+    {
+      "use": "YouTube API",
+      "src": "images/projects/using/YouTube.png"
+    },
+    {
+      "use": "Google Play",
+      "src": "images/projects/using/google-play.png"
+    },
+    {
+      "use": "Google Maps API",
+      "src": "images/projects/using/google-maps.png"
+    }
+  ]
+}
