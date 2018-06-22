@@ -1,6 +1,275 @@
 {
   "projects": [
     {
+      "name": "Sofrim",
+      "cover": "images/projects/sofrim/crops.jpg",
+      "logo": "images/projects/sofrim/icon.png",
+      "liveDemo": "https://www.sofrim.co.il",
+      "QR": "images/projects/sofrim/sofrimQrCode.png",
+      "shortDescription": "Croos platform app for Omer notification",
+      "description": "Omer notification app.",
+      "gallery": [
+        {
+          "caption": "Home",
+          "src": "images/projects/sofrim/gallery/1.png"
+        },
+        {
+          "caption": "Snooze",
+          "src": "images/projects/sofrim/gallery/2.png"
+        },
+        {
+          "caption": "Notification",
+          "src": "images/projects/sofrim/gallery/3.png"
+        },
+        {
+          "caption": "Actions",
+          "src": "images/projects/sofrim/gallery/4.png"
+        },
+        {
+          "caption": "Share",
+          "src": "images/projects/sofrim/gallery/5.png"
+        }
+      ],
+      "features": [
+        {
+          "feature": "Cross platform",
+          "icon": "fullscreen"
+        },
+        {
+          "feature": "iOS, Android",
+          "icon": "phone"
+        },
+        {
+          "feature": "PWA",
+          "icon": "globe"
+        },
+        {
+          "feature": "Local notifications",
+          "icon": "exclamation-sign"
+        },
+        {
+          "feature": "Snooze",
+          "icon": "time"
+        },
+        {
+          "feature": "Share",
+          "icon": "share"
+        },
+        {
+          "feature": "Rtl",
+          "icon": "arrow-left"
+        }
+      ],
+      "using": [
+        {
+          "use": "TypeScript",
+          "src": "images/projects/using/ts.png"
+        },
+        {
+          "use": "Ionic",
+          "src": "images/projects/using/ionic.png"
+        },
+        {
+          "use": "Google Play",
+          "src": "images/projects/using/google-play.png"
+        },
+        {
+          "use": "Cordova",
+          "src": "images/projects/using/cordova.png"
+        },
+        {
+          "use": "iTunes Connect",
+          "src": "images/projects/using/iTunesConnect.png"
+        },
+        {
+          "use": "Sass",
+          "src": "images/projects/using/sass.png"
+        }
+      ]
+    },
+    {
+      "name": "SymboTalk",
+      "cover": "images/projects/symbotalk/slidbackNofilter.jpg",
+      "logo": "images/projects/symbotalk/androidStoreIcon.png",
+      "liveDemo": "https://www.symbotalkapp.com",
+      "QR": "images/projects/symbotalk/symbotalkQrCode.png",
+      "shortDescription": "Croos platform app for Autism",
+      "description": "SymboTalk is a free app that talks for you by clicking on symbols (images or icons). Clicking on a symbol reads it aloud and adds it to a sentence which can also be read. This way SymboTalk can be your voice and talk for you.",
+      "gallery": [
+        {
+          "caption": "Home",
+          "src": "images/projects/symbotalk/gallery/(iPhone 8 Plus).png"
+        },
+        {
+          "caption": "Add Image",
+          "src": "images/projects/symbotalk/gallery/(iPhone 8 Plus) (1).png"
+        },
+        {
+          "caption": "Menu",
+          "src": "images/projects/symbotalk/gallery/(iPhone 8 Plus) (2).png"
+        },
+        {
+          "caption": "Setting",
+          "src": "images/projects/symbotalk/gallery/(iPhone 8 Plus) (3).png"
+        },
+        {
+          "caption": "Board",
+          "src": "images/projects/symbotalk/gallery/(iPhone 8 Plus) (4).png"
+        }
+      ],
+      "features": [
+        {
+          "feature": "Cross platform",
+          "icon": "fullscreen"
+        },
+        {
+          "feature": "iOS, Android",
+          "icon": "phone"
+        },
+        {
+          "feature": "PWA",
+          "icon": "globe"
+        },
+        {
+          "feature": "Sync devices",
+          "icon": "cloud"
+        },
+        {
+          "feature": "Auth",
+          "icon": "log-in"
+        },
+        {
+          "feature": "Responsive",
+          "icon": "resize-full"
+        },
+        {
+          "feature": "IAP",
+          "icon": "usd"
+        },
+        {
+          "feature": "Multi language",
+          "icon": "font"
+        },
+        {
+          "feature": "Offline",
+          "icon": "signal"
+        },
+        {
+          "feature": "Record audio",
+          "icon": "music"
+        },
+        {
+          "feature": "Camera",
+          "icon": "camera"
+        },
+        {
+          "feature": "Children Lock",
+          "icon": "lock"
+        }
+      ],
+      "using": [
+        {
+          "use": "TypeScript",
+          "src": "images/projects/using/ts.png"
+        },
+        {
+          "use": "Ionic",
+          "src": "images/projects/using/ionic.png"
+        },
+        {
+          "use": "Firebase",
+          "src": "images/projects/using/firebase.png"
+        },
+        {
+          "use": "Google Play",
+          "src": "images/projects/using/google-play.png"
+        },
+        {
+          "use": "Cordova",
+          "src": "images/projects/using/cordova.png"
+        },
+        {
+          "use": "iTunes Connect",
+          "src": "images/projects/using/iTunesConnect.png"
+        },
+        {
+          "use": "Sass",
+          "src": "images/projects/using/sass.png"
+        }
+      ]
+    },
+    {
+      "name": "SymboTalk API",
+      "cover": "images/projects/symbotalkapi/slidbackNofilter.jpg",
+      "logo": "images/projects/symbotalkapi/androidStoreIcon.png",
+      "liveDemo": "https://elelad.github.io/SymboTalkAPIDocs/",
+      "QR": "images/projects/symbotalkapi/symbotalkapiQrCode.png",
+      "shortDescription": "Node js API for symbols search",
+      "description": "SymboTalk API has a database of more the 28,000 professional symbols sets for Autism AAC, translated to 23 languages. Built for developers use.",
+      "gallery": [
+        {
+          "caption": "Home",
+          "src": "images/projects/symbotalkapi/gallery/1.png"
+        },
+        {
+          "caption": "Add Image",
+          "src": "images/projects/symbotalkapi/gallery/2.png"
+        },
+        {
+          "caption": "Menu",
+          "src": "images/projects/symbotalkapi/gallery/3.png"
+        }
+      ],
+      "features": [
+        {
+          "feature": "23 Languages",
+          "icon": "globe"
+        },
+        {
+          "feature": "Limit result",
+          "icon": "filter"
+        },
+        {
+          "feature": "Select symbols set",
+          "icon": "picture"
+        },
+        {
+          "feature": "MongoDB text search",
+          "icon": "leaf"
+        },
+        {
+          "feature": "Documentation",
+          "icon": "file"
+        },
+        {
+          "feature": "JSON Respons",
+          "icon": "gift"
+        },
+        {
+          "feature": "Validation",
+          "icon": "ban-circle"
+        },
+        {
+          "feature": "Error handling",
+          "icon": "remove"
+        }
+      ],
+      "using": [
+        {
+          "use": "Javascript",
+          "src": "images/projects/using/es6.png"
+        },
+        {
+          "use": "Node.js",
+          "src": "images/projects/using/nodejs.png"
+        },
+        {
+          "use": "MongoDB",
+          "src": "images/projects/using/MongoDb.png"
+        }
+      ]
+    },
+    {
       "name": "KidoTube",
       "cover": "images/projects/kidotube/cover.jpg",
       "logo": "images/projects/kidotube/kidotubeSmall.png",
@@ -8,7 +277,7 @@
       "QR": "images/projects/kidotube/kidoTubeQRcode.jpeg",
       "shortDescription": "Android Youtube App for children",
       "description": "KidoTube is an Android App that designed to allow children to search Youtube for movies and music using icons and without typing.",
-      "gallery" :[
+      "gallery": [
         {
           "caption": "Single video",
           "src": "images/projects/kidotube/gallery/SingleVideo.png"
@@ -111,7 +380,7 @@
       "QR": "images/projects/bakingconverter/bConverterQRcode.jpeg",
       "shortDescription": "Converter for Baking",
       "description": "with bConverter you can convert weight or volume to cup spoon or teaspoon",
-      "gallery":[
+      "gallery": [
         {
           "caption": "Home",
           "src": "images/projects/bakingconverter/gallery/Home.jpg"
@@ -194,7 +463,7 @@
       "QR": "images/projects/relWeather/relWeatherQRcode.jpeg",
       "shortDescription": "Responsive Weather app with ajax",
       "description": "Sometimes the temperature doesn't tell us anything. but how the weather felt yesterday - we always know.Relative Weather designed to show proportional weather.",
-      "gallery" :[
+      "gallery": [
         {
           "caption": "Home",
           "src": "images/projects/relWeather/gallery/home.jpg"
@@ -273,7 +542,7 @@
       "QR": "images/projects/jsQuiz/jsQuizQRcode.jpeg",
       "shortDescription": "Take a Quiz in JavaScript",
       "description": "Random Questions in JavaScript",
-      "gallery" :[
+      "gallery": [
         {
           "caption": "Home",
           "src": "images/projects/jsQuiz/gallery/home.jpg"
@@ -328,7 +597,7 @@
       "QR": "images/projects/storeMap/storeMapQRcode.jpeg",
       "shortDescription": "Stores on Google Maps",
       "description": "Responsive app that shows stores on Google Maps",
-      "gallery" :[
+      "gallery": [
         {
           "caption": "Home",
           "src": "images/projects/storeMap/gallery/home.jpg"
@@ -367,7 +636,6 @@
           "feature": "RTL support",
           "icon": "align-right"
         }
-
       ],
       "using": [
         {
@@ -390,7 +658,6 @@
           "use": "Google Maps API",
           "src": "images/projects/using/google-maps.png"
         }
-
       ]
     },
     {
@@ -401,7 +668,7 @@
       "QR": "images/projects/todoOrNot/qrcode.png",
       "shortDescription": "Angular 2 Todo List",
       "description": "Responsive app with Angular 2 and WebPack",
-      "gallery" :[
+      "gallery": [
         {
           "caption": "Home",
           "src": "images/projects/todoOrNot/gallery/home.jpg"
@@ -474,7 +741,6 @@
           "use": "CSS3",
           "src": "images/projects/using/CSS3.svg"
         }
-
       ]
     }
   ],
@@ -538,6 +804,34 @@
     {
       "use": "Google Maps API",
       "src": "images/projects/using/google-maps.png"
+    },
+    {
+      "use": "Ionic",
+      "src": "images/projects/using/ionic.png"
+    },
+    {
+      "use": "Firebase",
+      "src": "images/projects/using/firebase.png"
+    },
+    {
+      "use": "Node.js",
+      "src": "images/projects/using/nodejs.png"
+    },
+    {
+      "use": "Cordova",
+      "src": "images/projects/using/cordova.png"
+    },
+    {
+      "use": "MongoDb",
+      "src": "images/projects/using/MongoDb.png"
+    },
+    {
+      "use": "iTunes Connect",
+      "src": "images/projects/using/iTunesConnect.png"
+    },
+    {
+      "use": "Sass",
+      "src": "images/projects/using/sass.png"
     }
   ]
 }

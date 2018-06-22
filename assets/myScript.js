@@ -70,10 +70,11 @@ class Project {
             indicator = `<li data-target="#carousel-example-generic" data-slide-to="${sIndex}" class="${active}"></li>`;
             inner = `<div class="item${active}">
                                         <img src="${sItem.src}" alt="${sItem.caption}">
-                                        <div class="carousel-caption smartphone-caption">
-                                            <span class="smartphone-caption-span">${sItem.caption}</span>
-                                        </div>
+                                        
                                     </div>`;
+                                    /* <div class="carousel-caption smartphone-caption">
+                                            <span class="smartphone-caption-span">${sItem.caption}</span>
+                                        </div> */
             $("#cIndicators").append(indicator);
             $("#cInner").append(inner);
         });
