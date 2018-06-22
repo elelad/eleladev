@@ -4,10 +4,10 @@
       "name": "Sofrim",
       "cover": "images/projects/sofrim/crops.jpg",
       "logo": "images/projects/sofrim/icon.png",
-      "liveDemo": "https://www.sofrim.co.il",
+      "liveDemo": "http://onelink.to/53tcsq",
       "QR": "images/projects/sofrim/sofrimQrCode.png",
       "shortDescription": "Croos platform app for Omer notification",
-      "description": "Omer notification app.",
+      "description": "Omer notification app, daily remider for Omer counting. Developed with Ionic.",
       "gallery": [
         {
           "caption": "Home",
@@ -199,8 +199,8 @@
       ]
     },
     {
-      "name": "SymboTalk API",
-      "cover": "images/projects/symbotalkapi/slidbackNofilter.jpg",
+      "name": "Symbols API",
+      "cover": "images/projects/symbotalkapi/stapiCover.jpg",
       "logo": "images/projects/symbotalkapi/androidStoreIcon.png",
       "liveDemo": "https://elelad.github.io/SymboTalkAPIDocs/",
       "QR": "images/projects/symbotalkapi/symbotalkapiQrCode.png",
@@ -273,7 +273,7 @@
       "name": "KidoTube",
       "cover": "images/projects/kidotube/cover.jpg",
       "logo": "images/projects/kidotube/kidotubeSmall.png",
-      "liveDemo": "https://play.google.com/store/apps/details?id=com.elelad.kidstube",
+      "liveDemo": "https://apkpure.com/kidotube-kids-video-search/com.elelad.kidstube",
       "QR": "images/projects/kidotube/kidoTubeQRcode.jpeg",
       "shortDescription": "Android Youtube App for children",
       "description": "KidoTube is an Android App that designed to allow children to search Youtube for movies and music using icons and without typing.",
@@ -322,7 +322,7 @@
         },
         {
           "feature": "Side bar menu",
-          "icon": "menu-hamburger"
+          "icon": "chevron-right"
         },
         {
           "feature": "Setting",
@@ -828,6 +828,10 @@
     {
       "use": "iTunes Connect",
       "src": "images/projects/using/iTunesConnect.png"
+    },
+    {
+      "use": "AppStore",
+      "src": "images/projects/using/appstore.png"
     },
     {
       "use": "Sass",

@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="mobile-web-app-capable" content="yes">
     <title>Elad Elram Development</title>
@@ -11,14 +12,14 @@
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
 
     <!-- font awesome -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- bootstrap -->
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
 
     <!-- animate.css -->
-    <link rel="stylesheet" href="assets/animate/animate.css"/>
-    <link rel="stylesheet" href="assets/animate/set.css"/>
+    <link rel="stylesheet" href="assets/animate/animate.css" />
+    <link rel="stylesheet" href="assets/animate/set.css" />
 
     <!-- gallery -->
     <link rel="stylesheet" href="assets/gallery/blueimp-gallery.min.css">
@@ -34,54 +35,63 @@
 </head>
 
 <body>
-<div class="topbar animated fadeInLeftBig"></div>
+    <div class="topbar animated fadeInLeftBig"></div>
 
-<!-- Header Starts -->
-<div class="navbar-wrapper">
-    <div class="container">
+    <!-- Header Starts -->
+    <div class="navbar-wrapper">
+        <div class="container">
 
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="top-nav">
-            <div class="container">
-                <div class="navbar-header">
-                    <!-- Logo Starts -->
-                    <a class="navbar-brand" href="#home">Elad Elram</a><!--<img src="images/logo.png" alt="logo">-->
-                    <!-- #Logo Ends -->
+            <div class="navbar navbar-default navbar-fixed-top" role="navigation" id="top-nav">
+                <div class="container">
+                    <div class="navbar-header">
+                        <!-- Logo Starts -->
+                        <!-- <a  class="vcenter" href="mailto:elelad.dev@gmail.com">
+                                <i class="fa fa-envelope fa-2x"></i>
+                        </a> -->
+                        <a class="navbar-brand" href="#works">Elad Elram</a>
+                        <!--<img src="images/logo.png" alt="logo">-->
+                        <!-- #Logo Ends -->
 
 
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                            data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+
+                    </div>
+
+
+                    <!-- Nav Starts -->
+                    <div class="navbar-collapse  collapse">
+                        <ul class="nav navbar-nav navbar-right scroll">
+                            <li class="active">
+                                <a href="#works"><i class="fa fa-home"></i>&nbsp;&nbsp;Home</a>
+                            </li>
+                            <li>
+                                <a href="#about"><i class="fa fa-info"></i>&nbsp;&nbsp;About</a>
+                            </li>
+                            <!--<li><a href="#partners">Partners</a></li>-->
+                            <li>
+                                <a href="#contact"><i class="fa fa-envelope"></i>&nbsp;&nbsp;Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- #Nav Ends -->
 
                 </div>
-
-
-                <!-- Nav Starts -->
-                <div class="navbar-collapse  collapse">
-                    <ul class="nav navbar-nav navbar-right scroll">
-                        <li class="active"><a href="#works">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <!--<li><a href="#partners">Partners</a></li>-->
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <!-- #Nav Ends -->
-
             </div>
+
         </div>
-
     </div>
-</div>
-<!-- #Header Starts -->
+    <!-- #Header Starts -->
 
 
-<!-- works -->
-<div id="works" class=" clearfix grid">
-    <!--<h2 class="text-center wowload fadeInUp">Projects</h2>-->
-    <!--<figure class="effect-oscar  wowload fadeIn">
+    <!-- works -->
+    <div id="works" class=" clearfix grid">
+        <!--<h2 class="text-center wowload fadeInUp">Projects</h2>-->
+        <!--<figure class="effect-oscar  wowload fadeIn">
         <img src="images/projects/kidotube/title.jpg" alt="kidotube"/>
         <figcaption>
             <h2>KidoTube</h2>
@@ -179,145 +189,158 @@
     </figure>
 -->
 
-</div>
-<!-- works -->
+    </div>
+    <!-- works -->
 
-<!--works modals-->
-<!--Modal -->
-<div class="modal fade" id="projectsModal" tabindex="-1" role="dialog" aria-labelledby="projectsModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
-                        class="glyphicon glyphicon-remove-sign" aria-hidden="true" style="color: white"></span></button>
-                <h3 class="modal-title" id="projectsModalLabel">
-                    <img id="mLogo" src="images/projects/kidotube/kidotubeSmall.png" class="projectLogo"
-                         alt="kidotube logo">
-                    <span id="mTitle">KidoTube</span>
-                    <a class="mLiveDemo mLink" href="https://play.google.com/store/apps/details?id=com.elelad.kidstube"
-                       target="_blank" data-toggle="tooltip" data-placement="top" title="New Tab">
-                        <span class="glyphicon glyphicon-link"></span></a>
-                </h3>
-                <!--<div class="titleButton btn btn-warning visible-xs">
+    <!--works modals-->
+    <!--Modal -->
+    <div class="modal fade" id="projectsModal" tabindex="-1" role="dialog" aria-labelledby="projectsModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span class="glyphicon glyphicon-remove-sign" aria-hidden="true" style="color: white"></span>
+                    </button>
+                    <h3 class="modal-title" id="projectsModalLabel">
+                        <img id="mLogo" src="images/projects/kidotube/kidotubeSmall.png" class="projectLogo" alt="kidotube logo">
+                        <span id="mTitle">KidoTube</span>
+                        <a class="mLiveDemo mLink" href="https://play.google.com/store/apps/details?id=com.elelad.kidstube" target="_blank" data-toggle="tooltip"
+                            data-placement="top" title="New Tab">
+                            <span class="glyphicon glyphicon-link"></span>
+                        </a>
+                    </h3>
+                    <!--<div class="titleButton btn btn-warning visible-xs">
                     <a class="mLiveDemo" href="https://play.google.com/store/apps/details?id=com.elelad.kidstube"
                        target="_blank">
                         <span class="glyphicon glyphicon-open" style="color: white"></span></a>
                 </div>-->
 
-            </div>
-            <div class="modal-body">
-                <div id="modalBody" class="container-fluid">
-                    <div class="row">
-                        <div class="col-sm-8 col-xs-12">
-                            <h4>Description</h4>
-                            <div class="row">
-                                <div class="col-sm-9 col-xs-12">
-                            <span id="mDescription">
-                            KidoTube is an Android App that designed to allow children to search Youtube for movies and
-                            music using
-                            icons and without typing.</span>
+                </div>
+                <div class="modal-body">
+                    <div id="modalBody" class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-8 col-xs-12">
+                                <h4>Description</h4>
+                                <div class="row">
+                                    <div class="col-sm-9 col-xs-12">
+                                        <span id="mDescription">
+                                            KidoTube is an Android App that designed to allow children to search Youtube for movies and music using icons and without
+                                            typing.</span>
+                                    </div>
+                                    <div class="col-sm-3 hidden-xs qrContainer">
+                                        <img id="mQr" src="" alt="" title="Scan to your Phone" data-toggle="tooltip" data-placement="left">
+                                    </div>
                                 </div>
-                                <div class="col-sm-3 hidden-xs qrContainer">
-                                    <img id="mQr" src="" alt="" title="Scan to your Phone"
-                                         data-toggle="tooltip" data-placement="left">
-                                </div>
+                                <br>
+                                <br>
+                                <h4>Features</h4>
+                                <ul id="mFeatures" class="features-ul list-group row">
+                                </ul>
+                                <br>
+                                <h4>Using</h4>
+                                <ul id="mUsing" class="features-ul list-group row">
+                                    </li>
+                                </ul>
                             </div>
-                            <br><br><h4>Features</h4>
-                            <ul id="mFeatures" class="features-ul list-group row">
-                            </ul>
-                            <br><h4>Using</h4>
-                            <ul id="mUsing" class="features-ul list-group row">
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-sm-4 col-xs-12">
-                            <div id="carousel-example-generic" class="carousel smartphone slide col-6">
-                                <!-- Indicators -->
-                                <ol id="cIndicators" class="carousel-indicators">
-                                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                                    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-                                </ol>
-                                <!-- Wrapper for slides -->
-                                <div id="cInner" class="carousel-inner smartphone-inner" role="listbox">
-                                    <div class="item active">
-                                        <img src="images/projects/kidotube/gallery/Animals.png" alt="Animals">
-                                        <div class="carousel-caption">
-                                            <span class="smartphone-caption-span">Animals</span>
+                            <div class="col-sm-4 col-xs-12">
+                                <div id="carousel-example-generic" class="carousel smartphone slide col-6">
+                                    <!-- Indicators -->
+                                    <ol id="cIndicators" class="carousel-indicators">
+                                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                                        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+                                    </ol>
+                                    <!-- Wrapper for slides -->
+                                    <div id="cInner" class="carousel-inner smartphone-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="images/projects/kidotube/gallery/Animals.png" alt="Animals">
+                                            <div class="carousel-caption">
+                                                <span class="smartphone-caption-span">Animals</span>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="images/projects/kidotube/gallery/Favorites.png" alt="Favorites">
+                                            <div class="carousel-caption smartphone-caption">
+                                                <span class="smartphone-caption-span">Favorites</span>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="images/projects/kidotube/gallery/Menu.png" alt="Menu">
+                                            <div class="carousel-caption smartphone-caption">
+                                                <span class="smartphone-caption-span">Menu</span>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="images/projects/kidotube/gallery/Setting.png" alt="Setting">
+                                            <div class="carousel-caption smartphone-caption">
+                                                <span class="smartphone-caption-span">Setting</span>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="item">
-                                        <img src="images/projects/kidotube/gallery/Favorites.png" alt="Favorites">
-                                        <div class="carousel-caption smartphone-caption">
-                                            <span class="smartphone-caption-span">Favorites</span>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/projects/kidotube/gallery/Menu.png" alt="Menu">
-                                        <div class="carousel-caption smartphone-caption">
-                                            <span class="smartphone-caption-span">Menu</span>
-                                        </div>
-                                    </div>
-                                    <div class="item">
-                                        <img src="images/projects/kidotube/gallery/Setting.png" alt="Setting">
-                                        <div class="carousel-caption smartphone-caption">
-                                            <span class="smartphone-caption-span">Setting</span>
-                                        </div>
-                                    </div>
+                                    <!-- Controls -->
+                                    <a class="left carousel-control smartphone-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="right carousel-control smartphone-control" href="#carousel-example-generic" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
                                 </div>
-                                <!-- Controls -->
-                                <a class="left carousel-control smartphone-control" href="#carousel-example-generic"
-                                   role="button"
-                                   data-slide="prev">
-                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="right carousel-control smartphone-control" href="#carousel-example-generic"
-                                   role="button"
-                                   data-slide="next">
-                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="modal-footer">
+                    <a class="mLiveDemo hidden-xs" href="https://play.google.com/store/apps/details?id=com.elelad.kidstube" target="_blank">LIVE DEMO
+                    </a>
+                </div>
             </div>
-            <div class="modal-footer">
-                <a class="mLiveDemo hidden-xs" href="https://play.google.com/store/apps/details?id=com.elelad.kidstube"
-                   target="_blank">LIVE
-                    DEMO</a>
+        </div>
+    </div>
+
+
+    <!-- Cirlce Starts -->
+    <div id="about" class="container spacer about">
+        <h2 class="text-center wowload fadeInUp">About</h2>
+        <div class="row">
+            <div class="col-sm-6 wowload fadeInLeft">
+                <h4>
+                    <i class="fa fa-code"></i>Frontend Developer</h4>
+                <p>Certified Front End Developer by HIT. Development of mobile and web applications using the latest technologies
+                    like angulae 5, Ionic 3, Typescript, Firebase and more.
+                </p>
+            </div>
+            <div class="col-sm-6 wowload fadeInRight">
+                <h4>
+                    <i class="fa fa-magic"></i>Full Project</h4>
+                <p>Ability to take a project from scratch through design and development all the way to the App Store and Google
+                    Play.</p>
             </div>
         </div>
-    </div>
-</div>
-
-
-<!-- Cirlce Starts -->
-<div id="about" class="container spacer about">
-    <h2 class="text-center wowload fadeInUp">About</h2>
-    <div class="row">
-        <div class="col-sm-6 wowload fadeInLeft">
-            <h4><i class="fa fa-code"></i>Frontend Developer</h4>
-            <p>Certified Front End Developer by HIT.
-                Development of mobile and web applications using latest and advanced technologies.
-                Server side knowleag
-            </p>
+        <div class="row">
+            <div class="col-sm-6 wowload fadeInLeft">
+                <h4>
+                    <i class="fa fa-server"></i>Server Side</h4>
+                <p>Basic solutions for server side using Node.js, express, MongoDB, Rest and serverless technology.
+                </p>
+            </div>
+            <div class="col-sm-6 wowload fadeInRight">
+                <h4>
+                    <i class="fa fa-book"></i>High Learning Skills</h4>
+                <p>Fast learner of new technologies and services. Ability to read and implement documentation, High self-learning
+                    abilities.</p>
+            </div>
         </div>
-        <div class="col-sm-6 wowload fadeInRight">
-            <h4><i class="fa fa-flask"></i>Full Project</h4>
-            <p>Ability to take a project from scratch, design and development all the way to the app store and google play.</p>
+
+        <div class="technology">
+            <h3 class="text-center wowload fadeInUp">Technology</h3>
+            <ul id="mTechnology" class="features-ul list-group row bounceInUp">
+            </ul>
         </div>
-    </div>
 
-    <div class="technology">
-        <h3 class="text-center wowload fadeInUp">Technology</h3>
-        <ul id="mTechnology" class="features-ul list-group row bounceInUp">
-        </ul>
-    </div>
-
-    <!--
+        <!--
         <div class="process">
             <h3 class="text-center wowload fadeInUp">Process</h3>
             <ul class="row text-center list-inline  wowload bounceInUp">
@@ -339,11 +362,11 @@
             </ul>
         </div>
         -->
-</div>
-<!-- #Cirlce Ends -->
+    </div>
+    <!-- #Cirlce Ends -->
 
 
-<!-- About Starts
+    <!-- About Starts
 <div class="highlight-info">
     <div class="overlay spacer">
         <div class="container">
@@ -366,7 +389,7 @@
 </div>
 About Ends -->
 
-<!--
+    <!--
 
 <div id="partners" class="container spacer ">
     <h2 class="text-center  wowload fadeInUp">Some of our happy clients</h2>
@@ -503,13 +526,16 @@ About Ends -->
 
 -->
 
-<!--Contact Starts-->
-<div id="contact" class="spacer">
+    <!--Contact Starts-->
+    <div id="contact" class="spacer">
 
-    <div class="container contactform center">
-        <h3 class="text-center  wowload fadeInUp">Get in touch</h3><!--  to start your project -->
-        <h2 class="text-center  wowload fadeInLeftBig"><a href="mailto:elelad.dev@gmail.com" target="_blank">elelad.dev@gmail.com</a></h2>
-        <!-- <div class="row wowload fadeInLeftBig">
+        <div class="container contactform center">
+            <h3 class="text-center  wowload fadeInUp">Get in touch</h3>
+            <!--  to start your project -->
+            <h2 class="text-center  wowload fadeInLeftBig">
+                <a href="mailto:elelad.dev@gmail.com" target="_blank">elelad.dev@gmail.com</a>
+            </h2>
+            <!-- <div class="row wowload fadeInLeftBig">
             <div class="col-sm-6 col-sm-offset-3 col-xs-12">
                 <input type="text" placeholder="Name">
                 <input type="text" placeholder="Company">
@@ -519,58 +545,61 @@ About Ends -->
         </div> -->
 
 
+        </div>
     </div>
-</div>
-<!--Contact Ends-->
+    <!--Contact Ends-->
 
 
-<!-- Footer Starts -->
-<div class="footer text-center spacer">
-    <!-- <p class="wowload flipInX"><a href="#"><i class="fa fa-facebook fa-2x"></i></a> <a href="#"><i
+    <!-- Footer Starts -->
+    <div class="footer text-center spacer">
+        <!-- <p class="wowload flipInX"><a href="#"><i class="fa fa-facebook fa-2x"></i></a> <a href="#"><i
             class="fa fa-instagram fa-2x"></i></a> <a href="#"><i class="fa fa-twitter fa-2x"></i></a> <a
             href="#"><i
             class="fa fa-flickr fa-2x"></i></a></p>
     Copyright 2014 Cyrus Creative Studio. All rights reserved. -->
-</div>
-<!-- # Footer Ends -->
-<a href="#works" class="gototop "><i class="fa fa-angle-up  fa-3x"></i></a>
+    </div>
+    <!-- # Footer Ends -->
+    <a href="#works" class="gototop ">
+        <i class="fa fa-angle-up  fa-3x"></i>
+    </a>
 
 
-<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-<div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
-    <!-- The container for the modal slides -->
-    <div class="slides"></div>
-    <!-- Controls for the borderless lightbox -->
-    <h3 class="title">Title</h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="close">×</a>
-    <!-- The modal dialog, which will be used to wrap the lightbox content -->
-</div>
+    <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+    <div id="blueimp-gallery" class="blueimp-gallery blueimp-gallery-controls">
+        <!-- The container for the modal slides -->
+        <div class="slides"></div>
+        <!-- Controls for the borderless lightbox -->
+        <h3 class="title">Title</h3>
+        <a class="prev">‹</a>
+        <a class="next">›</a>
+        <a class="close">×</a>
+        <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    </div>
 
 
-<!-- jquery -->
-<script src="assets/jquery.js"></script>
+    <!-- jquery -->
+    <script src="assets/jquery.js"></script>
 
-<!-- wow script -->
-<script src="assets/wow/wow.min.js"></script>
+    <!-- wow script -->
+    <script src="assets/wow/wow.min.js"></script>
 
 
-<!-- boostrap -->
-<script src="assets/bootstrap/js/bootstrap.js" type="text/javascript"></script>
+    <!-- boostrap -->
+    <script src="assets/bootstrap/js/bootstrap.js" type="text/javascript"></script>
 
-<!-- jquery mobile -->
-<script src="assets/mobile/touchSwipe.min.js"></script>
-<script src="assets/respond/respond.js"></script>
+    <!-- jquery mobile -->
+    <script src="assets/mobile/touchSwipe.min.js"></script>
+    <script src="assets/respond/respond.js"></script>
 
-<!-- gallery -->
-<script src="assets/gallery/jquery.blueimp-gallery.min.js"></script>
+    <!-- gallery -->
+    <script src="assets/gallery/jquery.blueimp-gallery.min.js"></script>
 
-<!-- custom script -->
-<script src="assets/i18n.js"></script>
-<script src="assets/i18next/i18next.min.js"></script>
-<script src="assets/script.js"></script>
-<script src="assets/myScript.js"></script>
+    <!-- custom script -->
+    <!-- <script src="assets/i18n.js"></script>
+<script src="assets/i18next/i18next.min.js"></script> -->
+    <script src="assets/script.js"></script>
+    <script src="assets/myScript.js"></script>
 
 </body>
+
 </html>

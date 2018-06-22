@@ -5,12 +5,12 @@
 
 
 
-i18next = window.i18next;
+//i18next = window.i18next;
 //i18nextXHRBackend = window.i18nextXHRBackend;
 
-var jsonFromServer;
+//var jsonFromServer;
 
-$.getJSON("locals/he.json", function (data) {
+/* $.getJSON("locals/he.json", function (data) {
     jsonFromServer = data;
     i18next.init({
         lng: 'lng',
@@ -25,7 +25,7 @@ $.getJSON("locals/he.json", function (data) {
     });
     console.log(jsonFromServer);
     console.log("key:" + i18next.t('key'));
-});
+}); */
 
 
 
@@ -79,7 +79,7 @@ class Project {
             $("#cInner").append(inner);
         });
         $("#carousel-example-generic").carousel({
-            interval: 2700
+            interval: 2300
         });
         this.pFeatures.forEach(fItem =>{
             let li = `<li class="list-group-item col-md-4 col-xs-6">
